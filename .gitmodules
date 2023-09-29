@@ -1,0 +1,3 @@
+[submodule "ost_data"]
+	path = ost_data
+	url = https://github.com/BA-OST-Index/ost_data
