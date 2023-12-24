@@ -1,0 +1,10 @@
+MemoryLobbyExcelTable.json - 回忆大厅数据，含BGM
+LocalizeCharProfileExcelTable.json - 人物profile数据，含人物名称、人物简介和专武简介等，并同时含SSRNew简介
+LocalizeScenarioExcelTable.json - 故事名称及简介i18n数据
+
+ScenarioScriptContentExcelTable.json - 故事对话文本（游戏功能介绍）
+ScenarioScriptEvent[NO]ExcelTable.json - 活动对话文本
+ScenarioScriptFavor[NO]ExcelTable.json - 个人剧情对话文本
+ScenarioScriptGroup[NO]ExcelTable.json - 社团剧情对话文本
+ScenarioScriptMain[NO]ExcelTable.json - 主线剧情对话文本
+

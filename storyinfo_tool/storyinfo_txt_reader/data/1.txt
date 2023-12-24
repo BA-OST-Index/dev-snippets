@@ -1,0 +1,55 @@
+;;
+11
+1,1,1
+故事標題
+StoryDesc1
+StoryDesc2
+StoryDesc3
+||
+zh_tw, 3, https://example.com/, TEST
+--
+PartName
+False
+||
+zh_tw, 1, 15
+//
+SegDesc
+Momoi, Midori
+OST_64
+BG_Black.jpg
+--
+PartName2
+False
+||
+zh_tw, 1, 32
+//
+SegDesc2
+Aru, Mutsuki
+OST_7
+BG_Black.jpg
+;;
+
+;;
+11
+1,1,2
+StoryTitle
+StoryDesc1
+StoryDesc2
+StoryDesc3
+--
+PartName
+False
+//
+SegDesc
+Momoi, Midori
+OST_64
+BG_Black.jpg
+--
+PartName2
+False
+//
+SegDesc2
+Aru, Mutsuki
+OST_7
+BG_Black.jpg
+;;

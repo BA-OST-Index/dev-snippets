@@ -6,7 +6,12 @@ from collections import namedtuple
 
 # -----------------General Function-----------------
 def load_json(url):
-    return requests.get(url).json()
+    print("getting", url)
+    while True:
+        try:
+            return requests.get(url).json()
+        except Exception:
+            pass
 
 
 ZhI18nData = namedtuple("ZhI18nData", ["zh_cn_jp", "zh_cn_cn", "zh_cn_tw", "zh_tw"])
@@ -74,6 +79,7 @@ for (cn, zh, tw, jp) in zip(json_raid[0]["WorldRaid"], json_raid[1]["WorldRaid"]
                             json_raid[2]["WorldRaid"], json_raid[3]["WorldRaid"]):
     tw_name = TwToCn.convert(tw["Name"]) if tw["Name"] != jp["Name"] else zh["Name"]
     data_raid_world_raid.append(ZhI18nData(cn["Name"], zh["Name"], tw_name, tw["Name"]))
+
 
 # ----------------- WriteData -----------------
 def write_json(dataset: list[ZhI18nData, ...], filepath):
