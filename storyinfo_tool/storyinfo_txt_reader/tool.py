@@ -162,7 +162,7 @@ class DataProcessTool:
         for entry in part_source:
             lang, pos, value = entry[0], entry[1], entry[2]
             if info_source[lang][pos]["platform"] in [2, 3]:
-                timestamp = part_source_dict[lang][pos]["timestamp"]
+                timestamp = entry[2]
                 try:
                     timestamp = int(timestamp)
                 except ValueError:
